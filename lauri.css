@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(restaurant-5521372_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    padding: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.enter{
+    display: block;
+    
+}
+
+
+
+.ent input{
+    padding: 20px 40px 20px 40px ;
+    background-color: azure;
+    
+    border: 0px 0px 0px 2px solid azure ;
+    margin-top: 60px;
+    margin-left: 600px;
+}
+
+.ent select{
+    padding: 20px 40px 20px 40px ;
+    background-color: azure;
+    
+    border: 0px 0px 0px 3px solid azure ;
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+.btn{
+    
+    padding: 20px 40px 20px 40px ;
+    background-color: azure;
+    
+    border: 0px 0px 0px 2px  solid azure;
+margin-top: 40px;
+margin-left: 600px;
+
+}
+
+a{
+    font-size: 20px;
+    color: black;
+}

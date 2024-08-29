@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(lantern-6826687_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.dres{
+    display: flex;
+    flex-wrap: wrap; /*pour qure les image vont a la ligne*/
+    gap: 30px;/*expace entre les image*/
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.dres img{
+    width: 400px;
+    height: auto;
+    border:  solid white;
+   
+}
+h1{
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding: 30px;
+    font-weight: bold;
+}
+

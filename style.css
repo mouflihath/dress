@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(lantern-6826687_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.face{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 275px;
+    margin-top: 150px;
+    gap: 30px;
+}
+.face img{
+    height: 30vh;
+   filter: brightness(60%);
+}
+ h1{
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding: 30px;
+    font-weight: bold;
+ }
+h2{
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+ 
+.fun{
+display: block;
+}
+
+.btn1{
+    margin-top: 60px;
+   margin-left: 675px;
+   margin-right: 20px;
+   padding:20px 50px 20px 50px ;
+   background-color: rgb(241, 244, 244);
+   border-radius: 20px 20px 20px 20px ;
+   }
+   .btn1 a{
+    color: rgb(9, 10, 10);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+   }
+
+.btn2{
+    margin-top: 20px;
+   padding: 10px 20px 10px 20px ;
+   white-space: nowrap;
+   margin-left:1350px;
+   border-radius: 10px 10px 10px 10px;
+   background-color: white;
+
+}
+.btn2 a{
+    color: rgb(9, 10, 10);
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+h6{
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.r1{
+    display: flex;
+}
